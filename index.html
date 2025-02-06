@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushant portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Sushant Ghimire</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#academics">Academics</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" aria-label="Toggle theme">
+            <i class="fas fa-moon"></i>
+        </button>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero section">
+        <div class="background-scene">
+            <!-- Dark theme elements -->
+            <div class="dark-theme-bg">
+                <div class="moon"></div>
+                <div class="stars"></div>
+                <div class="clouds-dark">
+                    <div class="cloud cloud1"></div>
+                    <div class="cloud cloud2"></div>
+                    <div class="cloud cloud3"></div>
+                </div>
+            </div>
+            <!-- Light theme elements -->
+            <div class="light-theme-bg">
+                <div class="sun"></div>
+                <div class="clouds-light">
+                    <div class="cloud cloud1"></div>
+                    <div class="cloud cloud2"></div>
+                    <div class="cloud cloud3"></div>
+                </div>
+                <div class="scene">
+                    <div class="trees">
+                        <div class="tree">
+                            <div class="tree-trunk"></div>
+                            <div class="tree-top"></div>
+                        </div>
+                        <div class="tree">
+                            <div class="tree-trunk"></div>
+                            <div class="tree-top"></div>
+                        </div>
+                        <div class="tree">
+                            <div class="tree-trunk"></div>
+                            <div class="tree-top"></div>
+                        </div>
+                        <div class="tree">
+                            <div class="tree-trunk"></div>
+                            <div class="tree-top"></div>
+                        </div>
+                        <div class="tree">
+                            <div class="tree-trunk"></div>
+                            <div class="tree-top"></div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="profile-container">
+                <div class="profile-img">
+                    <!-- Replace src with your image path -->
+                    <img src="me.jpg" alt="Profile Picture">
+                </div>
+                <div class="profile-info">
+                    <h1>Sushant Ghimire</h1>
+                    <p>I am an IT student passionate about programming, constantly exploring new technologies and coding
+                        techniques. Alongside my technical interests, I enjoy minor video editing, where I experiment
+                        with
+                        creative visuals and effects. Beyond the digital world, I have a deep appreciation for
+                        literature,
+                        finding inspiration in storytelling and creative expression. With a blend of technical skills
+                        and
+                        artistic curiosity, I strive to build innovative projects that reflect both logic and
+                        creativity.</p>
+                    <div class="cta-container">
+                        <a href="#contact" class="cta-button"
+                            onclick="document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })">Get In
+                            Touch</a>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/sushant-ghimire-b72160257/" target="_blank" class="social-icon">
+                                <i class="fab fa-linkedin"></i> </a>
+                           
+                            <a href="https://github.com/sushant-ghimire" target="_blank" class="social-icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.facebook.com/profile.php?id=61567704760607" target="_blank" class="social-icon">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UC3YrKn7IFZBt3cKVYEr3YAg" target="_blank" class="social-icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>Welcome to my personal corner of the web! I’m an IT student with a deep passion for programming and
+                technology. Whether it’s crafting clean code, solving complex problems, or exploring the latest tech
+                trends, I thrive on turning ideas into functional and innovative solutions. Beyond the world of
+                programming, I also enjoy dabbling in video editing, where I bring creativity to life through visual
+                storytelling. Literature holds a special place in my heart, offering me a space to unwind and draw
+                inspiration from the power of words. This website is a reflection of my diverse interests, projects, and
+                journey as a lifelong learner. Feel free to explore, connect, and share your thoughts with me!</p>
+        </div>
+    </section>
+
+    <!-- Academics Section -->
+    <section id="academics" class="section">
+        <h2>Academics</h2>
+        <div class="timeline-container">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Current Degree</h3>
+                    <p class="degree">Bachelor in Computer Application</p>
+                   <i><p class="institution">(Sagarmatha college of Science and Technology)</p></i> 
+                    <span class="date">2023 - Present</span>
+                </div>
+                <div class="timeline-item">
+                    <h3>Higher Secondary Education</h3>
+                    <p class="degree">+2 Management (Business Maths)</p>
+                   <i> <p class="institution">(Xavier International College)</p></i>
+                    <span class="date">2022 - 2024</span>
+                </div>
+                <div class="timeline-item">
+                    <h3>Secondary Education</h3>
+                    <p class="degree">SEE(10)</p>
+                    <i><p class="institution">(Bagishwori Secondary School)</p></i>
+                    <span class="date">2020 - 2022</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="section">
+        <h2>My Interests</h2>
+        <div class="interests-grid">
+            <div class="interest-item">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+            </div>
+
+            <div class="interest-item">
+                <i class="fas fa-broadcast-tower"></i>
+                <h3>Mass Communication</h3>
+            </div>
+            <div class="interest-item">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Programming</h3>
+            </div>
+            <div class="interest-item">
+                <i class="fas fa-book"></i>
+                <h3>Literature</h3>
+            </div>
+            <!-- Add more interests -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-item">
+                <div class="project-content">
+                    <h3>Banking Management System</h3>
+                    <p class="project-description">A console-based banking system implemented in C that allows users to
+                        create accounts, deposit and withdraw money, and check balances. Features include file-based
+                        data persistence, account management, and transaction handling with proper error checks.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C</span>
+                        <span class="tech-tag">File Handling</span>
+                        <span class="tech-tag">Data Structures</span>
+                        <span class="tech-tag">Console App</span>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="project-btn" onclick="showBankingOutput()">View Output</button>
+                        <a href="https://github.com/sushant-ghimire/Bank-account-system-" target="_blank" class="project-btn"> <i class="fab fa-github"></i>View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="project-item">
+                <div class="project-content">
+                    <h3>Project Title 2</h3>
+                    <p class="project-description">Brief description of your project goes here.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="#" class="project-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="#" class="project-btn">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="project-item">
+                <div class="project-content">
+                    <h3>Project Title 3</h3>
+                    <p class="project-description">Brief description of your project goes here.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="#" class="project-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="#" class="project-btn">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!--Certificates Section
+    <section id="certificates" class="section">
+        <h2>Certificates & Training</h2>
+        <div class="certificates-grid">
+             Add your certificates here
+             <div class="certificate-item">
+                <i class="fas fa-certificate"></i>
+                <h3>Web Development Bootcamp</h3>
+                <p>Complete Web Development Course - 2023</p>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>sushantghimire098@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+977 9848776244</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Lalitpur, Nepal</p>
+                </div>
+            </div>
+            <form class="contact-form" id="contact-form" onsubmit="return sendEmail(event)">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Sushant Ghimire. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/sushant-ghimire" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sushant-ghimire-b72160257/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/sushant63526" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</html>
